@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=  , initial-scale=1.0">
+        <title>Document</title>
+       <!--=============== REMIXICONS ===============-->
+       <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+       <!--=============== SWIPER CSS ===============-->
+       <link rel="stylesheet" href="assests/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assests/css/style.css">
+        <link rel="stylesheet" href="assests/css/responsive.css">
+        <script defer src="assests/js/product.js"></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+        <script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+        <!-- 
+        =============================================
+           FAv icons For All devices 
+        =============================================
+        -->     
+        <link rel="apple-touch-icon" sizes="180x180" href="assests/fav icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assests/fav icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="36x36" href="assests/fav icons/favicon-16x16.png">
+        <link rel="manifest" href="assests/fav icons/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <!-- 
+        =============================================
+           Header Start
+        =============================================
+        -->
+       <header class="header">
+        <a href="" class="logo name">ROHI ATTA
+            <img src="assests/logo pic/logopic.png" alt="">
+        </a>
+        <input type="checkbox" name="" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+        <!-- 
+        =============================================
+            Navbar Start
+        =============================================
+        -->
+        <nav class="navbar">
+            <a  href="#home"                 style="--i:0" class="d active">Home</a>
+            <a class="d" href="#product"     style="--i:1">Product</a>
+            <a class="d" href="#detail"    style="--i:2">Order Now</a>
+            <a class="d" href="#contact"        style="--i:3">Contact</a>
+            <!-- <a href="#contact"     style="--i:4">Contact</a> -->
+            <lord-icon id="cart-icon" class="d" style="--i:4"
+                src="https://cdn.lordicon.com/pbrgppbb.json"
+                trigger="hover"
+                style="width: 40px; height: 40px;" >
+            </lord-icon>
+
+
+            <div class="btn-box2">
+                <a href="assests/login & signup/login.html"><button  class="btn2">Login</button></a>
+            </div>
+            <div class="box">
+                <input  class="text" type="text" placeholder="Search">
+                <a class="btn" href="">
+                    <i class='bx bx-search-alt'></i>
+                </a>
+            </div>
+        </nav>
+
+        <div class="cart">
+            <h2 class="cart-title"> your cart</h2>
+            <div class="card-content"></div>
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">RS &nbsp;0</div>
+            </div>
+           
+            <i class='bx bx-window-close close-cart'  id="close-cart"></i>
+            
+        </div>
+        <!-- 
+        =============================================
+            Navbar Finish
+        =============================================
+        -->
+    </header>
+    <!-- 
+    =============================================
+        Header Finish
+    =============================================
+    -->
+    
+    
+    
+    <!-- 
+        =============================================
+            Home Page Start
+        =============================================
+    -->
+    <section id="home">
+            <!-- <div  class="img">
+                <img src="assests/imges/landing page bg img.jpeg" alt="">
+            </div>
+
+            <div class="salogn">
+                <p>
+                    "Where golden fields meet wholesome meals."
+                </p>
+        
+                <div class="btn-box1">
+                    <button  class="btn1">
+                        <a href="assests/linked files/homePage.html">Learn more</a>
+                    </button>
+                </div>
+            </div> -->
+</section>
+
+
+<div class="carousel">
+    <!-- list item -->
+    <div class="list">
+        <div class="item">
+            <img src="assests/imges/home page img/office.jpg">
+            <div class="content">
+                <div class="title">GEARING UP FOR SUCESS</div>
+                <div class="topic">ROHI DESI FLOUR</div>
+                <div class="des">
+                    <!-- lorem 50 -->
+                    Our new office reflects our commitment to growth and providing the finest desi flour to our customers.
+                </div>
+                
+            </div>
+        </div>
+        <div class="item">
+            <img src="assests/imges/home page img/machine.jpg">
+            <div class="content">
+                <div class="title">THE HEART OF OUR OPERATION</div>
+                <div class="topic">ROHI DESI FLOUR</div>
+                <div class="des">
+                    This is traditional millstone is where the magic happens, transforming wheat into our delicious desi flour.
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="assests/imges/home page img/wheate.jpg">
+            <div class="content">
+                <div class="title">GOLDEN PROMISE</div>
+                <div class="topic">ROHI DESI FLOUR</div>
+                <div class="des">
+                    Our golden desi wheat is the foundation of our delicious, high-quailty flavor.
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="assests/imges/home page img/processing.jpg">
+            <div class="content">
+                <div class="title">UNLOCKING FLAVOR, NATURALLY</div>
+                <div class="topic">ROHI DESI FLOUR</div>
+                <div class="des">
+                     These millstones use a time-tested method to grind wheat, preserving the inherent goodness and flavor of the grain in our desi flour.
+                </div>
+               
+            </div>
+        </div>
+        <div class="item">
+            <img src="assests/imges/home page img/flour.jpg">
+            <div class="content">
+                <div class="title">THE PURE FOUNDATION FOR DELICIOUS MEALS</div>
+                <div class="topic">ROHI DESI FLOUR</div>
+                <div class="des">
+                    Made from finely-ground, high-quality wheat, our desi flour is the perfect base for all your favorite dishes. 
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="assests/imges/home page img/flour packing.jpg">
+            <div class="content">
+                <div class="title">QUALITY YOU CAN SEE</div>
+                <div class="topic">ROHI DESI FLOUR</div>
+                <div class="des">
+                   "Take a look at our beautiful packing! it reflects the quailty and care that goes into making our desi flour."
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- list thumnail -->
+    <div class="thumbnail">
+        <div class="item">
+            <img src="assests/imges/home page img/office.jpg">
+            <div class="content">
+                <div class="title">
+                    OUR OFFICE
+                </div>
+                <div class="description">
+                    ROHI ATTA
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="assests/imges/home page img/machine.jpg">
+            <div class="content">
+                <div class="title">
+                    OPERATION
+                </div>
+                <div class="description">
+                    ROHI ATTA
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="assests/imges/home page img/wheate.jpg">
+            <div class="content">
+                <div class="title">
+                    WHEATE STOCK
+                </div>
+                <div class="description">
+                    ROHI ATTA
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="assests/imges/home page img/processing.jpg">
+            <div class="content">
+                <div class="title">
+                    FILTERING
+                </div>
+                <div class="description">
+                    ROHI ATTA
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="assests/imges/home page img/flour.jpg">
+            <div class="content">
+                <div class="title">
+                   FLOUR STOCK
+                </div>
+                <div class="description">
+                    ROHI ATTA
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="assests/imges/home page img/flour packing.jpg">
+            <div class="content">
+                <div class="title">
+                   PACKING
+                </div>
+                <div class="description">
+                   ROHI ATTA
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- next prev -->
+
+    <div class="arrows">
+        <button id="prev"><</button>
+        <button id="next">></button>
+    </div>
+    <!-- time running -->
+    <div class="time"></div>
+</div>
+    <!-- 
+        =============================================
+            Home Page Finish
+        =============================================
+    -->
+
+
+
+    <!-- 
+        =============================================
+            Product page Start
+        =============================================
+    -->
+    <section id="product">
+        <div class="container">
+            <div class="left">
+                <div class="logo">
+                   <img src="assests/imges/ROHI ATTA FLX 1.jpg" alt="">
+                </div>
+
+                <div class="text1">
+                    <p>
+                        A Premium Stone Ground Wheat Flour that provides Whole Grain Nutrition, Rich Fiber Flavour & Abdundant Texture, Make Softer, Tastier & Fluffier Chappatis Everytime.
+                    </p>
+                </div>
+
+                <div class="text2">
+                    <h1>ROHI Chakki Fresh Atta</h1>
+                    <p>
+                        Chakki Fresh Atta is prepared using the highest quailty grains subjected to the most stringent testing procedures, giving our customers unmatched quailty. Each grain passes through a cleaning process under the most controlled environment to ensure only the finest grains are selected. The grains are then grounded in a Chakki TO ensure ROHI Chakki Fresh Atta reatains all the nurtritional goodness of the wheat. ROHI Chakki Fresh Atta is prepared from 100% stone milled wheat.
+                    </p>
+                    
+                    <div class="urdu">
+                        <h1>روہی چکی کا تازہ آٹا</h1>
+                        <p>
+                            چکی فریش آٹا اعلیٰ ترین معیار کے اناج کا استعمال کرتے ہوئے تیار کیا جاتا ہے جو کہ انتہائی سخت جانچ کے طریقہ کار سے مشروط ہوتا ہے، جو ہمارے صارفین کو بے مثال معیار فراہم کرتا ہے۔ ہر اناج کو سب سے زیادہ کنٹرول شدہ ماحول کے تحت صفائی کے عمل سے گزرتا ہے تاکہ یہ یقینی بنایا جا سکے کہ صرف بہترین اناج کا انتخاب کیا گیا ہے۔ اس کے بعد اناج کو چکی میں پیس دیا جاتا ہے تاکہ یہ یقینی بنایا جا سکے کہ روہی چکی تازہ آٹا گندم کی تمام غذائیت کو برقرار رکھتا ہے۔ روہی چکی تازہ آٹا 100% پتھر کی چکی والی گندم سے تیار کیا جاتا ہے۔
+                        </p>
+                    </div>
+                </div>
+
+                <div class="text3">
+
+                </div>
+
+                <div class="img">
+                    <img src="assests/logo pic/stockpic-removebg-preview.png" alt="">
+                </div>
+
+                <div class="logoContainer">
+                    <div class="title">
+                        
+                   </div>
+                </div>
+            </div>
+   
+            <div class="center">
+                <img src="assests/imges/ROHI ATTA FLX 2.jpg" alt="">
+            </div>
+
+            <div class="right">
+                <div class="logo">
+                    <img src="assests/imges/ROHI_ATTA_FLX_3-removebg-preview.png" alt="">
+                </div>
+                <div class="logo1">
+                    <img src="assests/imges/Rohi_Atta_name-removebg-preview.png" alt="">
+                </div>
+
+                <div class="text1">
+                    <h1>Nutrition Facts</h1>
+                    <p>Servings per container
+                        <span>Serving size</span>
+                        <span>(100g)</span>
+                    </p>
+                    <hr>
+
+                    <div class="text2">
+                        <p>Amount per serving
+                            <span>Calories</span>
+                            <span>360</span>
+                        </p>
+
+                        <div class="menu">
+                            <ul>
+                                <li></li>
+                                <li>%Daily Value</li>
+                            </ul>
+                     
+                            <ul>
+                                <li>Toatal Fat 3g</li>
+                                <li>4%</li>
+                            </ul>
+                     
+                            <ul>
+                                <li>Toatal Fat 3g</li>
+                                <li>4%</li>
+                            </ul>
+                     
+                            <ul>
+                                <li>Saturated Fat 0g</li>
+                                <li>0%</li>
+                            </ul>
+                     
+                            <ul>
+                                <li>Trans Fat 0g</li>
+                                <li>0%</li>
+                            </ul>
+                     
+                            <ul>
+                                <li>Cholesterol 0mg</li>
+                                <li>0%</li>
+                            </ul>
+                     
+                            <ul>
+                                <li>Sodium 0mg</li>
+                                <li>0%</li>
+                            </ul>
+                     
+                            <ul>
+                                <li>otal Carbohydrate 69g</li>
+                                <li>25%</li>
+                            </ul>
+                     
+                            <ul>
+                                <li>Dietary Fiber 10g</li>
+                                <li>36%</li>
+                            </ul>
+                     
+                            <ul>
+                                <li>Total Sugars 0g</li>
+                                <li>0%</li>
+                            </ul>
+                     
+                            <ul>
+                                <li>Includes 0g Added Sugars</li>
+                                <li>0%</li>
+                            </ul>
+                     
+                            <ul>
+                                <li>Protein 13g</li>
+                                <li></li>
+                            </ul>
+                            <hr>
+                     
+                            <ul>
+                                <li>Vitamin D 0mcg</li>
+                                <li>0%</li>
+                            </ul>
+                     
+                            <ul>
+                                <li>Calcium 23mg</li>
+                                <li>2%</li>
+                            </ul>
+                     
+                            <ul>
+                                <li>Iron 3mg</li>
+                                <li>15%</li>
+                            </ul>
+
+                            <ul>
+                                <li>Potassium 388mg</li>
+                                <li>15%</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="text3">
+                            <hr>
+                            <p>
+                                The Daily % Values tells you how much a nutrient in a serving of food contributes to a daily deit, 2000 Calories a day is used for general nutrient advice.
+                            </p>
+                        </div>
+
+                        <div class="logoContainer">
+                            <div class="title">
+                                 <img src="assests/logo pic/veg.png" style="width: 100px; height: 100px; top: 10px; position: relative;" alt="">
+                                 <img src="assests/logo pic/Halal_logo_PNG1.png" alt="">
+                                 <img src="assests/logo pic/Untitled design.png" alt="">
+                                 <img class="last" src="assests/logo pic/whole wheatre.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallerys">
+        <h1>OUR GALLERY</h1>
+        <div class="gallery">
+            <!-- =============== SWIPER GALLERY CARDS =============== -->
+            <div class="swiper gallery-cards">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="assests/imges/gallery-imgs/main gate.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title"></h3>
+                                <span class="gallery__subtitle"></span>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="assests/imges/gallery-imgs/office.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title"></h3>
+                                <span class="gallery__subtitle"></span>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="assests/imges/gallery-imgs/sehan.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title"></h3>
+                                <span class="gallery__subtitle"></span>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="assests/imges/gallery-imgs/weat.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title"></h3>
+                                <span class="gallery__subtitle"></span>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="assests/imges/gallery-imgs/yellow machine.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title"></h3>
+                                <span class="gallery__subtitle"></span>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="assests/imges/gallery-imgs/yellow machine 2.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title"></h3>
+                                <span class="gallery__subtitle"></span>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="assests/imges/gallery-imgs/yellow machine 3.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title"></h3>
+                                <span class="gallery__subtitle"></span>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="assests/imges/gallery-imgs/yellow machine 4.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title"></h3>
+                                <span class="gallery__subtitle"></span>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="assests/imges/gallery-imgs/yellow machine 5.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title"></h3>
+                                <span class="gallery__subtitle"></span>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="assests/imges/gallery-imgs/light yellow machine .jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title"></h3>
+                                <span class="gallery__subtitle"></span>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="assests/imges/gallery-imgs/light yellow machine 2.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title"></h3>
+                                <span class="gallery__subtitle"></span>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="assests/imges/gallery-imgs/light yellow machine 3.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title"></h3>
+                                <span class="gallery__subtitle"></span>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="assests/imges/gallery-imgs/light yellow machine 4.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title"></h3>
+                                <span class="gallery__subtitle"></span>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <!-- =============== SWIPER GALLERY THUMBNAIL =============== -->
+            <div class="gallery__overflow">
+                <div class="swiper gallery-thumbs">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="assests/imges/gallery-imgs/main gate.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="assests/imges/gallery-imgs/office.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="assests/imges/gallery-imgs/sehan.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="assests/imges/gallery-imgs/weat.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="assests/imges/gallery-imgs/yellow machine.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="assests/imges/gallery-imgs/yellow machine 2.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="assests/imges/gallery-imgs/yellow machine 3.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="assests/imges/gallery-imgs/yellow machine 4.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="assests/imges/gallery-imgs/yellow machine 5.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="assests/imges/gallery-imgs/light yellow machine .jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="assests/imges/gallery-imgs/light yellow machine 2.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="assests/imges/gallery-imgs/light yellow machine 3.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="assests/imges/gallery-imgs/light yellow machine 4.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Swiper pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+
+                <!-- Swiper arrows -->
+                <div class="swiper-button-next">
+                    <i class="ri-arrow-right-line"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="ri-arrow-left-line"></i>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="wrapper">
+            <div class="container">
+                <input type="radio" name="slide" id="c1" checked>
+                <label for="c1" class="card">
+                    <div class="row">
+                        <div class="icon">1</div>
+                        <div class="description">
+                            <h4></h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </label>
+                <br>
+                <input type="radio" name="slide" id="c2" >
+                <label for="c2" class="card">
+                    <div class="row">
+                        <div class="icon">2</div>
+                        <div class="description">
+                            <h4></h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </label>
+                <br>
+                <input type="radio" name="slide" id="c3" >
+                <label for="c3" class="card">
+                    <div class="row">
+                        <div class="icon">3</div>
+                        <div class="description">
+                            <h4></h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </label>
+                <br>
+                <input type="radio" name="slide" id="c4" >
+                <label for="c4" class="card">
+                    <div class="row">
+                        <div class="icon">4</div>
+                        <div class="description">
+                            <h4></h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </label>
+                <br>
+                <input type="radio" name="slide" id="c5" >
+                <label for="c5" class="card">
+                    <div class="row">
+                        <div class="icon">5</div>
+                        <div class="description">
+                            <h4></h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </label>
+                <br>
+                <input type="radio" name="slide" id="c6" >
+                <label for="c6" class="card">
+                    <div class="row">
+                        <div class="icon">6</div>
+                        <div class="description">
+                            <h4></h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </label>
+                <br>
+                <input type="radio" name="slide" id="c7" >
+                <label for="c7" class="card">
+                    <div class="row">
+                        <div class="icon">7</div>
+                        <div class="description">
+                            <h4></h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </label>
+                <br>
+                <input type="radio" name="slide" id="c8" >
+                <label for="c8" class="card">
+                    <div class="row">
+                        <div class="icon">8</div>
+                        <div class="description">
+                            <h4></h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </label>
+                <br>
+                <input type="radio" name="slide" id="c9" >
+                <label for="c9" class="card">
+                    <div class="row">
+                        <div class="icon">9</div>
+                        <div class="description">
+                            <h4></h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </label>
+                <br>
+                <input type="radio" name="slide" id="c10" >
+                <label for="c10" class="card">
+                    <div class="row">
+                        <div class="icon">10</div>
+                        <div class="description">
+                            <h4></h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </label>
+                <br>
+                <input type="radio" name="slide" id="c11" >
+                <label for="c11" class="card">
+                    <div class="row">
+                        <div class="icon">11</div>
+                        <div class="description">
+                            <h4></h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </label>
+                <br>
+                <input type="radio" name="slide" id="c12" >
+                <label for="c12" class="card">
+                    <div class="row">
+                        <div class="icon">12</div>
+                        <div class="description">
+                            <h4></h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </label>
+                <br>
+                <input type="radio" name="slide" id="c13" >
+                <label for="c13" class="card">
+                    <div class="row">
+                        <div class="icon">13</div>
+                        <div class="description">
+                            <h4></h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>   -->
+    </section>
+    
+    <section id="detail" class="center">
+         
+        <div class="main">
+            <img  src="assests/imges/order page images/after harvesting.webp"  id="mainimg" alt="">
+            
+            <div class="submain">
+            
+                <div class="product-box">
+                    <div class="sm1">
+                        <img src="assests/imges/order page images/after harvesting.webp" alt=""  class="subimg product-img">
+                    </div>
+                    
+               
+                </div>
+                
+                <div class="product-box">
+                    <div class="sm1">
+                        <img src="assests/imges/order page images/handmade.webp" alt=""  class="subimg product-img" >
+                    </div>
+                   
+                </div>
+
+                <div class="product-box">
+                    <div class="sm1">
+                        <img src="assests/imges/order page images/chapati.webp" alt=""  class="subimg product-img"  >
+                    </div>
+                   
+                </div>
+
+                <div class="product-box">
+                    <div class="sm1">
+                        <img src="assests/imges/order page images/flour-wheat.jpg" alt=""  class="subimg product-img last"    >
+                    </div>
+                    <h2 class="w product-title">5 KG</h2>
+                    <span class="m4 price"> 5000</span>
+                    <a href="https://wa.me/+923008681176"><lord-icon class="add-cart move" 
+                        onclick="addToCart()"
+                            src="https://cdn.lordicon.com/pbrgppbb.json"
+                            trigger="in"
+                            delay="1000"
+                            state="in-shopping">
+                        </lord-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+            
+        <div class="texts">
+            <h3>ROHI ATTA</h3>
+
+            <div class="purchase">
+                <!-- <h5>Rs. 5000</h5> -->
+                <div class="btps">
+                    <button style="font-size: 20px;" class="btp" ><a style="text-decoration: none;" href=" https://wa.me/+923008681176">Buy</a></button>
+                </div> 
+            </div>
+
+            <h1>DESI FLOUR</h1>
+            <h4>Manufacturing:</h4>
+            <span>  
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nostrum natus repellat laboriosam aperiam nemo non autem amet maxime, exercitationem odit accusantium ab harum fugit perferendis, placeat sapiente accusamus odio!
+            Qui, facere dignissimos! Impedit cum cumque dignissimos sequi. Qui ad dolore obcaecati modi. Quas ab perferendis obcaecati, voluptates totam doloribus eaque odit perspiciatis quasi cum, eos consectetur! Quos, vitae modi!
+            Reiciendis corporis vel labore error eos molestiae, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus deserunt dolorum ullam accusamus delectus unde placeat obcaecati debitis, officia dolor suscipit asperiores libero repellendus tempore ipsum iure,
+            </span> 
+        </div>
+    </section>
+      
+
+
+
+
+
+
+
+
+
+    
+    <!-- <section id="shop">Shop</section>  -->
+    <!-- <section id="contact">Contact</section> -->
+
+
+    <section id="contact" class="main7-footer-style3">
+        <div class="main7-footer-logo-style3">
+            <img src="Assests/HOME PAGE 1/COMPANY LOGO.png" alt="">
+            <!-- <h1>Const <span>ructio</span></h1> -->
+        </div>
+
+        <div class="main7-footer-about-style3">
+            <h1>ABOUT US</h1>
+            <p>03008681176</p>
+            <p>Jafar pur tehsil sadiqabad distric Rahim yar khan, Multan, Pakistan, 66000</p>
+            <p>rohistoneflour@gmail.com</p>
+            <p>Srvices 24/7</p>
+
+            <div class="main7-footer-about-social-style3" >
+                <div class="main7-footer-fb-styl3">
+                    <a href="https://www.facebook.com/profile.php?id=61557383801859&mibextid=kFxxJD">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                </div>
+
+                <div class="main7-footer-twitter-styl3">
+                    <a href="https://www.instagram.com/rohistoneflour?igsh=MXUwYzh2Ymo3OHpweg==">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                </div>
+
+                <div class="main7-footer-google-styl3">
+                    <a href="mailto:rohistoneflour@gmail.com">
+                        <i class='bx bx-envelope'></i>
+                    </a>
+                </div>
+
+                <div class="main7-footer-linkedin-styl3">
+                    <a href="https://wa.me/+923008681176">
+                        <!-- <i class='bx bxl-linkedin' ></i> -->
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main7-footer-contact-style3">
+            <h1>FEATURE'S</h1>
+            <a href="#home"><p>Home</p></a>
+            <a href="#product"><p>Product</p></a>
+            <a href="#detail"><p>Order Now</p></a>
+            <a href="#contact"><p>Contact</p></a>
+        </div>
+
+        <div class="main7-footer-news-style3">
+            <h1>LATEST NEWS</h1>
+            <div class="main7-footer-pic1-style3">
+                <img src="assests/imges/footer pics/high quality work.jpg" alt="">
+                <div class="main7-footer-pic1-text-style3">
+                    <h1>HIGH QUALITY WORK FOR OUR CUSTOMER</h1>
+                    <div class="main7-footer-pic1-user-icon-style3">
+                        <i class='bx bx-user' ></i>
+                        <h6>Admin</h6>
+                        <!-- <div class="line"></div> -->
+
+                        <div class="main7-footer-pic1-comment-icon-style3">
+                            <i class='bx bx-message-rounded'></i>
+                        </div>
+                        <h5>3Comment</h5>
+                    </div>
+                </div>
+            </div>
+
+
+
+           <div class="main7-footer-pic2-style3">
+                <img src="assests/imges/footer pics/staisfication.jpg" alt="">
+                <div class="main7-footer-pic2-text-style3">
+                    <h1>STAISFICATION OF THE CUSTOMER</h1>
+                    <div class="main7-footer-pic2-user-icon-style3">
+                        <i class='bx bx-user' ></i>
+                        <h6>Admin</h6>
+                        <!-- <div class="line">
+                                
+                        </div> -->
+
+                        <div class="main7-footer-pic2-comment-icon-style3">
+                            <i class='bx bx-message-rounded'></i>
+                        </div>
+                        <h5>3Comment</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main7-footer-msg-style3">
+            <h1>CONTACT FORM</h1>
+            <input type="text" required placeholder="Enter Your Email">
+            <br>
+            <textarea type="text" name="" id="" placeholder="Message"></textarea>
+        </div>
+    </section>
+    <footer>
+        <p>
+            ROHI ATTA  Copyright &copy;
+            <span id="year"></span>
+            This is all right reserverd!
+        </p>
+    </footer>
+  <!--=============== SWIPER JS ===============-->
+  <script src="assests/js/swiper-bundle.min.js"></script>
+
+  
+</body>
+</html>
